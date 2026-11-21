@@ -47,11 +47,11 @@ else
 fi
 cp Info.plist "$APP/Contents/Info.plist"
 mkdir -p "$APP/Contents/Resources/Icons"
-for f in Icons/*.png; do case "$(basename "$f")" in AppIcon-1024.png|appicon.png) ;; *) cp "$f" "$APP/Contents/Resources/Icons/";; esac; done
+for f in Icons/*.png; do case "$(basename "$f")" in AppIcon-1024.png|appicon.png|*-full.png) ;; *) cp "$f" "$APP/Contents/Resources/Icons/";; esac; done
 cp Localization/strings.json "$APP/Contents/Resources/strings.json" 2>/dev/null || true
 
 echo "▶︎ Tạo biểu tượng…"
-if cp Icons/appicon-imac-1024.png build/icon.png 2>/dev/null || xcrun swift Tools/MakeIcon.swift build/icon.png >/dev/null 2>&1; then
+if cp Icons/appicon-imac-full.png build/icon.png 2>/dev/null || xcrun swift Tools/MakeIcon.swift build/icon.png >/dev/null 2>&1; then
   ICONSET=build/AppIcon.iconset; mkdir -p "$ICONSET"
   for s in 16 32 128 256 512; do
     sips -z $s $s build/icon.png --out "$ICONSET/icon_${s}x${s}.png" >/dev/null
@@ -107,5 +107,9 @@ mkdir -p "$HOME/Applications"
 rm -rf "$HOME/Applications/$APP" "$HOME/Applications/CCMM.app"
 cp -R "$APP" "$HOME/Applications/"
 touch "$HOME/Applications/$APP"
+# Làm mới icon trong Spotlight / Launchpad / Dock
+/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -f "$HOME/Applications/$APP" >/dev/null 2>&1 || true
+[ -d "/Applications/$APP" ] && [ "/Applications/$APP" -ot "$HOME/Applications/$APP" ] && echo "  ⚠️  Có bản Macly cũ trong /Applications – hãy xoá bản đó."
+killall Dock 2>/dev/null || true
 echo "✅ Xong! Đang mở Macly…"
 open "$HOME/Applications/$APP"

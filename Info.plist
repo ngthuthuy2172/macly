@@ -2,20 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleExecutable</key><string>Macly</string>
-    <key>CFBundleIdentifier</key><string>com.loc.ccmm</string>
-    <key>CFBundleName</key><string>Macly</string>
-    <key>CFBundleDisplayName</key><string>Macly</string>
-    <key>CFBundleIconFile</key><string>AppIcon</string>
-    <key>CFBundlePackageType</key><string>APPL</string>
-    <key>CFBundleShortVersionString</key><string>1.0</string>
-    <key>CFBundleVersion</key><string>100</string>
-    <key>LSMinimumSystemVersion</key><string>13.0</string>
-    <key>LSApplicationCategoryType</key><string>public.app-category.utilities</string>
-    <key>NSHighResolutionCapable</key><true/>
-    <key>NSAppleEventsUsageDescription</key><string>Macly cần điều khiển Finder để dọn Thùng rác và gỡ ứng dụng.</string>
-    <key>NSDesktopFolderUsageDescription</key><string>Macly quét thư mục Màn hình để tìm file lớn và file trùng lặp.</string>
-    <key>NSDocumentsFolderUsageDescription</key><string>Macly quét thư mục Tài liệu để tìm file lớn và file trùng lặp.</string>
-    <key>NSDownloadsFolderUsageDescription</key><string>Macly quét thư mục Tải về để tìm tệp tải dở, bộ cài đặt cũ và file trùng.</string>
+	<key>CFBundleDisplayName</key>
+	<string>Macly</string>
+	<key>CFBundleExecutable</key>
+	<string>Macly</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.loc.ccmm</string>
+	<key>CFBundleName</key>
+	<string>Macly</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.1</string>
+	<key>CFBundleVersion</key>
+	<string>101</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Macly cần điều khiển Finder để dọn Thùng rác và gỡ ứng dụng.</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Macly quét thư mục Màn hình để tìm file lớn và file trùng lặp.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Macly quét thư mục Tài liệu để tìm file lớn và file trùng lặp.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Macly quét thư mục Tải về để tìm tệp tải dở, bộ cài đặt cũ và file trùng.</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
 </dict>
 </plist>

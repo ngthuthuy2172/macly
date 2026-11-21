@@ -369,7 +369,6 @@ struct TopBar: View {
                 }
                 if hasStats { statsPill }
                 languageMenu
-                KofiFloating()
             }
             HStack(spacing: 4) {
                 ForEach(NavGroup.allCases) { g in
