@@ -1,0 +1,12 @@
+# Build
+.build/
+build/
+dist/
+*.app
+*.dmg
+Resources/
+
+# macOS
+.DS_Store
+.swiftpm/
+*.xcodeproj/xcuserdata/

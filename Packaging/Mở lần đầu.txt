@@ -1,0 +1,11 @@
+MACLY – CÀI ĐẶT
+
+1. Kéo Macly vào thư mục Applications.
+2. Lần đầu mở: chuột phải vào Macly → Mở → Mở
+   (Macly là app mã nguồn mở, chưa ký bằng tài khoản Apple Developer nên macOS hỏi xác nhận).
+   Nếu macOS vẫn chặn: Cài đặt hệ thống → Quyền riêng tư & Bảo mật → kéo xuống bấm "Vẫn mở".
+3. Bấm "Cấp quyền" trong app để bật Truy cập toàn bộ ổ đĩa, giúp quét được nhiều hơn.
+
+FIRST LAUNCH (English)
+Drag Macly to Applications. Right-click Macly → Open → Open.
+If blocked: System Settings → Privacy & Security → "Open Anyway".

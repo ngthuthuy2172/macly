@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="104" viewBox="0 0 100 104"><defs>
+<linearGradient id="v1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CDB8FF"/><stop offset="1" stop-color="#7556E3"/></linearGradient>
+<linearGradient id="v2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B79CFF"/><stop offset="1" stop-color="#6A4AD8"/></linearGradient>
+<linearGradient id="vd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7556E3"/><stop offset="1" stop-color="#4E35B0"/></linearGradient>
+<linearGradient id="pk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFC4DF"/><stop offset="1" stop-color="#EE74AD"/></linearGradient>
+<linearGradient id="pc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE2B8"/><stop offset="1" stop-color="#F2A65E"/></linearGradient>
+<linearGradient id="pw" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CFDBFF"/><stop offset="1" stop-color="#7D93EE"/></linearGradient>
+<radialGradient id="sph" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#E9E0FF"/><stop offset=".5" stop-color="#9D80FA"/><stop offset="1" stop-color="#5A3FC4"/></radialGradient>
+<radialGradient id="sphp" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#FFE0EE"/><stop offset=".55" stop-color="#F48CBC"/><stop offset="1" stop-color="#C9508A"/></radialGradient>
+<linearGradient id="wh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEE8FF"/></linearGradient>
+</defs><ellipse cx="50" cy="96" rx="30" ry="4.5" fill="#4B3A8C" fill-opacity=".14"/><path d="M50 22 Q40 12 28 18 Q16 22 18 36 Q8 44 14 58 Q12 72 26 78 Q32 90 46 86 L50 84 Z" fill="url(#v1)"/>
+<path d="M50 22 Q60 12 72 18 Q84 22 82 36 Q92 44 86 58 Q88 72 74 78 Q68 90 54 86 L50 84 Z" fill="url(#pk)"/>
+<path d="M50 22 L50 84" stroke="#4E35B0" stroke-width="3" stroke-opacity=".5"/>
+<path d="M26 40 Q34 36 40 44 M24 60 Q32 54 40 62 M32 74 Q38 70 44 74" stroke="#fff" stroke-width="3.5" stroke-linecap="round" fill="none" stroke-opacity=".7"/>
+<path d="M58 34 H68 V44 M58 56 H76 M60 70 H70 V62" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle cx="68" cy="44" r="4" fill="#fff"/><circle cx="76" cy="56" r="4" fill="#fff"/><circle cx="70" cy="62" r="4" fill="#fff"/>
+<ellipse cx="32" cy="24" rx="8" ry="3" fill="#fff" fill-opacity=".55"/></svg>

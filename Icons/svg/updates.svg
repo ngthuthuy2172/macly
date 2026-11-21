@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="104" viewBox="0 0 100 104"><defs>
+<linearGradient id="v1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CDB8FF"/><stop offset="1" stop-color="#7556E3"/></linearGradient>
+<linearGradient id="v2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B79CFF"/><stop offset="1" stop-color="#6A4AD8"/></linearGradient>
+<linearGradient id="vd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7556E3"/><stop offset="1" stop-color="#4E35B0"/></linearGradient>
+<linearGradient id="pk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFC4DF"/><stop offset="1" stop-color="#EE74AD"/></linearGradient>
+<linearGradient id="pc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE2B8"/><stop offset="1" stop-color="#F2A65E"/></linearGradient>
+<linearGradient id="pw" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CFDBFF"/><stop offset="1" stop-color="#7D93EE"/></linearGradient>
+<radialGradient id="sph" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#E9E0FF"/><stop offset=".5" stop-color="#9D80FA"/><stop offset="1" stop-color="#5A3FC4"/></radialGradient>
+<radialGradient id="sphp" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#FFE0EE"/><stop offset=".55" stop-color="#F48CBC"/><stop offset="1" stop-color="#C9508A"/></radialGradient>
+<linearGradient id="wh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEE8FF"/></linearGradient>
+</defs><ellipse cx="50" cy="96" rx="30" ry="4.5" fill="#4B3A8C" fill-opacity=".14"/><rect x="18" y="24" width="64" height="64" rx="20" fill="url(#vd)"/>
+<rect x="18" y="20" width="64" height="64" rx="20" fill="url(#v1)"/>
+<path d="M50 34 V64 M38 52 L50 64 L62 52" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<rect x="36" y="70" width="28" height="5" rx="2.5" fill="#fff" fill-opacity=".85"/>
+<ellipse cx="34" cy="26" rx="10" ry="2.5" fill="#fff" fill-opacity=".5"/>
+<circle cx="80" cy="22" r="10" fill="url(#sphp)"/></svg>

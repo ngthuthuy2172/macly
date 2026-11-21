@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="104" viewBox="0 0 100 104"><defs>
+<linearGradient id="v1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CDB8FF"/><stop offset="1" stop-color="#7556E3"/></linearGradient>
+<linearGradient id="v2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B79CFF"/><stop offset="1" stop-color="#6A4AD8"/></linearGradient>
+<linearGradient id="vd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7556E3"/><stop offset="1" stop-color="#4E35B0"/></linearGradient>
+<linearGradient id="pk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFC4DF"/><stop offset="1" stop-color="#EE74AD"/></linearGradient>
+<linearGradient id="pc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE2B8"/><stop offset="1" stop-color="#F2A65E"/></linearGradient>
+<linearGradient id="pw" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CFDBFF"/><stop offset="1" stop-color="#7D93EE"/></linearGradient>
+<radialGradient id="sph" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#E9E0FF"/><stop offset=".5" stop-color="#9D80FA"/><stop offset="1" stop-color="#5A3FC4"/></radialGradient>
+<radialGradient id="sphp" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#FFE0EE"/><stop offset=".55" stop-color="#F48CBC"/><stop offset="1" stop-color="#C9508A"/></radialGradient>
+<linearGradient id="wh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEE8FF"/></linearGradient>
+</defs><ellipse cx="50" cy="96" rx="30" ry="4.5" fill="#4B3A8C" fill-opacity=".14"/><path d="M27 40 H73 L68 84 Q67 92 58 92 H42 Q33 92 32 84 Z" fill="url(#v2)"/>
+<path d="M32 44 L35 84 Q36 88 40 88" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" stroke-opacity=".28"/>
+<rect x="44" y="52" width="5" height="30" rx="2.5" fill="#4E35B0" fill-opacity=".45"/><rect x="56" y="52" width="5" height="30" rx="2.5" fill="#4E35B0" fill-opacity=".45"/>
+<rect x="22" y="30" width="56" height="13" rx="6.5" fill="url(#v1)"/>
+<rect x="41" y="21" width="18" height="12" rx="6" fill="none" stroke="#9C7BF5" stroke-width="5"/>
+<ellipse cx="38" cy="34" rx="10" ry="2.5" fill="#fff" fill-opacity=".55"/>
+<path d="M82 14 Q83 22 90 23 Q83 24 82 32 Q81 24 74 23 Q81 22 82 14 Z" fill="url(#pk)"/></svg>
