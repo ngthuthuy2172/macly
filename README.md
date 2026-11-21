@@ -10,6 +10,19 @@
 ## Video giới thiệu
 ▶️ [Xem video giới thiệu (32 giây)](Packaging/Macly-intro.mp4)
 
+## Ảnh giới thiệu
+<p align="center">
+  <img src="Packaging/Screenshots/Macly-1-tong-quan.png" width="100%">
+</p>
+<p align="center">
+  <img src="Packaging/Screenshots/Macly-2-don-rac.png" width="49%">
+  <img src="Packaging/Screenshots/Macly-3-go-ung-dung.png" width="49%">
+</p>
+<p align="center">
+  <img src="Packaging/Screenshots/Macly-4-ban-do.png" width="49%">
+  <img src="Packaging/Screenshots/Macly-5-ram.png" width="49%">
+</p>
+
 ## Cài đặt
 1. **[Tải file Macly.dmg](../../releases/latest/download/Macly.dmg)** (macOS 13 trở lên, chip Apple hoặc Intel).
 2. Mở file vừa tải, **kéo Macly vào thư mục Applications**.
