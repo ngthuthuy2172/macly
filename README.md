@@ -7,9 +7,6 @@
 ## Tên sản phẩm
 **Macly** (tiếng Việt: *Mác-li*): app dọn dẹp và tối ưu máy Mac, viết bằng SwiftUI.
 
-## Video giới thiệu
-▶️ [Xem video giới thiệu (32 giây)](Packaging/Macly-intro.mp4)
-
 ## Ảnh giới thiệu
 <p align="center">
   <img src="Packaging/Screenshots/Macly-1-tong-quan.png" width="100%">
